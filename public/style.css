@@ -11,91 +11,144 @@
 	clear: both;
 }
 
-#active a {
-	color: #33ccff;
-	border-bottom: none;
+#kadunud_loomad a { 
+  color: #33ccff; 
+  border-bottom: none; 
 }
 
-.toetaja-image img {
-	width: 250px;
-	margin-top: 20px;
+.loomad-varjupaigas {
+  width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 
-header {
-	background-color: #715b5b;
-	height: 20vh;
-	color: white;
+.flex-cat img, .flex-dog img, .flex-rabbit img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
-.nav {
-	padding-top: 90px;
-}
-
-.row {
-	padding-top: 15px;
-}
-
-.logo h1 {
-	padding-top: 78px;
-	padding-left: 45px;
+#lost-page {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
 }
 
 .kuulutus {
-	margin: 120px 0 120px 0;
-}
-
-.kuulutus h2, .toetamine h2, .varjupaigast h2, .kontakt h2 {
-	text-align: center;
-	font-size: 30px;
-	text-transform: uppercase;
+  margin: 120px 0 120px 0;
 }
 
 .ankeet {
-	width: 700px;
-	background-color: #E5E5E5;
-	border-radius: 30px;
-	margin: 0 auto;
-	display: block;
-	margin-top: 50px;
-	padding: 50px 100px 50px 100px;
+  width: 700px;
+  background-color: #E5E5E5;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  padding: 50px 100px 50px 100px;
 }
 
 .ankeet-flex {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 15px;
-	margin-top: 15px;
-	align-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  align-content: center;
 }
 
 .ankeet button {
-	width: 120px;
-	height: 40px;
-	border-radius: 50px;
-	background-color: #715b5b;
-	border-style: none;
-	margin: 30px auto 15px auto;
-	display: block;
-	color: #FFFFFF;
-	font-size: 20px;
-	letter-spacing: 1px;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #715b5b;
+  border-style: none;
+  margin: 30px auto 15px auto;
+  display: block;
+  color: #FFFFFF;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .ankeet-flex input, .ankeet-flex select {
-	width: 250px;
-	height: 30px;
-	border-style: none;
-	padding: 5px;
-	border-radius: 5px;
+  width: 250px;
+  height: 30px;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .ankeet-flex h3 {
-	margin: auto 0;
-	font-weight: regular;
+  margin: auto 0;
+  font-weight: regular;
 }
 
-#kirjeldus {
-	height: 100px;
+header {
+  background-color: #715b5b;
+  height: 200px;
+  color: white;
+}
+
+.logo h1 {
+  padding-top: 78px;
+  padding-left: 45px;
+}
+
+.row {
+  padding-top: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 75px;
+  float: left;
+  transform: rotate(18deg);
+  position: relative;
+  padding-top: 30px;
+}
+
+.logo h1 {
+  float: left;
+  font-size: 38px;
+  padding-top: 78px;
+  position: absolute;
+  padding-left: 45px;
+  font-weight: 400;
+  color: white;
+}
+
+.nav {
+  float: right;
+  padding-top: 90px;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline;
+  margin-left: 18px;
+  font-size: 18px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  transition: border-bottom .1s linear;
+}
+
+.nav a:hover {
+  border-bottom: solid 2px white;
+}
+
+#active a {
+	color: #33ccff;
+	border-bottom: none;
 }
 
 .toetamine, .varjupaigast {
@@ -107,11 +160,6 @@ header {
 	margin-bottom: 50px;
 }
 
-.toetamine p {
-	text-align: justify;
-	margin: 15px 0;
-}
-
 .toetamine h3 {
 	margin-top: 30px;
 }
@@ -121,3 +169,86 @@ header {
 	font-weight: regular;
 }
 
+.varjupaigast h3 {
+	font-size: 23px;
+	padding-top: 25px;
+	padding-bottom: 7px;
+	font-style: italic;
+}
+
+.varjupaigast p, .toetamine p {
+	text-align: justify;
+	padding-top: 7px;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 1.3;
+}
+
+.found-cats {
+	margin: 120px auto;
+	width: 1000px;
+}
+
+.filter-flex {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 90px;
+}
+
+.filter {
+	padding-top: 10px;
+}
+
+.filter-buttons button {
+	background-color: #BDBDBD;
+	border-style: none;
+	padding: 12px 17px;
+	border-radius: 50px;
+	margin: 0 25px;
+}
+.filter-buttons h4 {
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.animal-grid {
+	display: grid;
+	grid-template-columns: 220px 220px 220px 220px;
+	grid-template-rows: auto;
+	grid-gap: 20px;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.animal-grid a {
+	color: black;
+}
+
+.grid-cat img {
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	padding-bottom: 10px;
+}
+
+#gender {
+	width: 27px;
+	height: auto;
+	float: left;
+}
+
+.grid-cat  h3 {
+	float: left;
+	text-transform: uppercase;
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+.cat-profile {
+	width: 800px;
+	margin: 100px auto;
+}
+
+#main-img {
+	width: 500px;
+}

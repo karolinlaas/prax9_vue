@@ -1,15 +1,17 @@
 <template>
   <div class="container">
+  
+  <h2>LOOMAD VARJUPAIGAS</h2>
 
-  <section id="loomad-varjupaigas-main" class="loomad-varjupaigas">
+  <section class="loomad-varjupaigas">
     <section class="flex-cat">
-      <a href="found_cats.html"><img src="../assets/body_cat.jpg"></a>
+      <router-link to="/foundCats"><img src="../assets/body_cat.jpg"></router-link>
     </section>
     <section class="flex-dog">
-      <a href="found_dogs.html"><img src="../assets/body_dog.jpg"></a>
+      <router-link to="/foundDogs"><img src="../assets/body_dog.jpg"></router-link>
     </section>
     <section class="flex-rabbit">
-      <a href="found_rabbits.html"><img src="../assets/body_rabbit.jpg"></a>
+      <router-link to="/foundRabbits"><img src="../assets/body_rabbit.jpg"></router-link>
     </section>
   </section>
 
@@ -29,7 +31,7 @@ export default {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 150px;
   }
 
@@ -38,4 +40,11 @@ export default {
     height: 300px;
     object-fit: cover;
   }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  
 </style>

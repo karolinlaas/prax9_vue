@@ -11,16 +11,17 @@
 
 				<section class="nav">
 					<ul>
-						<li id="active"><router-link to="/loomadVarjupaigas">Loomad varjupaigas</router-link></li>
+						<li><router-link to="/loomadVarjupaigas">Loomad varjupaigas</router-link></li>
 						<li><router-link to="/kadunudLoom">Kadunud loomad</router-link></li>
-						<li id="toeta"><router-link to="/toetaMeid">Toeta meid</router-link></li>
+						<li><router-link to="/toetaMeid">Toeta meid</router-link></li>
 						<li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
-						<li><router-link to="/kontakt">Kontakt</router-link></li>
+						<li id="active"><router-link to="/kontakt">Kontakt</router-link></li>
 					</ul>
 				</section>
 			</section>
 		</header>
-    <LoomadVarjupaigas />
+    
+    <Kontakt />
     <Footer />
   </div>
 </template>
@@ -28,20 +29,17 @@
 <script>
 // @ is an alias to /src
 import Footer from '@/components/Footer.vue';
-import LoomadVarjupaigas from '@/components/LoomadVarjupaigas.vue';
+import Kontakt from '@/components/Kontakt.vue';
 
 export default {
-  name: 'loomadVarjupaigas',
+  name: 'kontakt',
   components: {
     Footer,
-    LoomadVarjupaigas,
+    Kontakt,
   },
 };
 </script>
 
 <style>
-  #varjupaigas a { 
-    color: #33ccff; 
-    border-bottom: none;
-  }
+
 </style>

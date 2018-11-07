@@ -4,19 +4,19 @@
   <section class="main-header">
   <section class="main-row">
     <section class="main-logo">
-      <a href="index.html">
+      <router-link to="/">
         <img src="../assets/paw.png" alt="pawprint">
         <h1>Loomade Varjupaik</h1>
-      </a>
+      </router-link>
     </section>
 
     <section class="main-nav">
       <ul>
         <li id="loomad_varjupaigas"><router-link to="/loomadVarjupaigas">Loomad varjupaigas</router-link></li>
-        <li id="kadunud_loom"><a href="kadunud_loom.html">Kadunud loom?</a></li>
-        <li id="toeta_meid"><a href="toeta_meid.html">Toeta meid</a></li>
-        <li id="varjupaigast"><a href="varjupaigast.html">Varjupaigast</a></li>
-        <li id="kontakt"><a href="kontakt.html">Kontakt</a></li>
+        <li id="kadunud_loom"><router-link to="/kadunudLoom">Kadunud loomad</router-link></li>
+        <li id="toeta_meid"><router-link to="/toetaMeid">Toeta meid</router-link></li>
+        <li id="varjupaigast"><router-link to="/varjupaigast">Varjupaigast</router-link></li>
+        <li id="kontakt"><router-link to="/kontakt">Kontakt</router-link></li>
       </ul>
     </section>
   </section>

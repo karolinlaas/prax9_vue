@@ -2,6 +2,7 @@
   <div class="home">
     <MainNav />
     <LoomadVarjupaigas />
+    <hr>
     <Kontakt />
     <Footer />
   </div>
@@ -26,7 +27,11 @@ export default {
 </script>
 
 <style>
-  #loomad-varjupaigas-main {
-    border-bottom: solid 1px black;
+  hr {
+    width: 75%;
+    margin: 0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
   }
 </style>
