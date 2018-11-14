@@ -23,7 +23,7 @@
     
     <section class="found-cats">
 
-			<h2 id="lost-page">LEITUD KOERAD</h2>
+			<h2 id="lost-page">LEITUD JÄNESED</h2>
 
 			<div class="filter-flex">
 				<div class="filter">
@@ -46,72 +46,54 @@
 
 			<div class="animal-grid">
 			
-				<router-link to="/dog">
+				<router-link to="/rabbit">
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/male.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
 				</router-link>
 
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/male.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
 
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
-          <h3>Koera Nimi</h3>
+          <h3>Jänese Nimi</h3>
 				</div>
 
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
 
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
 
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
 
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
-
+				
 				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
-					<img id="gender" src="../assets/male.svg">
-					<h3>Koera Nimi</h3>
-				</div>
-
-				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
+					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
-					<h3>Koera Nimi</h3>
-				</div>
-
-				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
-					<img id="gender" src="../assets/female.svg">
-					<h3>Koera Nimi</h3>
-				</div>
-
-				<div class="grid-cat">
-					<img src="../assets/dog_1.jpg">
-					<img id="gender" src="../assets/male.svg">
-					<h3>Koera Nimi</h3>
+					<h3>Jänese Nimi</h3>
 				</div>
 
 			</div>
@@ -127,7 +109,7 @@
 import Footer from '@/components/Footer.vue';
 
 export default {
-  name: 'foundCats',
+  name: 'foundRabbits',
   components: {
     Footer,
   },

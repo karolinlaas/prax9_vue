@@ -8,6 +8,11 @@ import varjupaigast from './views/varjupaigast.vue';
 import kontakt from './views/kontakt.vue';
 import foundCats from './views/foundCats.vue';
 import foundDogs from './views/foundDogs.vue';
+import foundRabbits from './views/foundRabbits.vue';
+import lostCats from './views/lostCats.vue';
+import lostDogs from './views/lostDogs.vue';
+import lostRabbits from './views/lostRabbits.vue';
+import cat from './views/cat.vue';
 
 Vue.use(Router);
 
@@ -54,6 +59,31 @@ export default new Router({
       path: '/foundDogs',
       name: 'foundDogs',
       component: foundDogs,
+    },
+    {
+      path: '/foundRabbits',
+      name: 'foundRabbits',
+      component: foundRabbits,
+    },
+    {
+      path: '/lostCats',
+      name: 'lostCats',
+      component: lostCats,
+    },
+    {
+      path: '/lostDogs',
+      name: 'lostDogs',
+      component: lostDogs,
+    },
+    {
+      path: '/lostRabbits',
+      name: 'lostRabbits',
+      component: lostRabbits,
+    },
+    {
+      path: '/cat',
+      name: 'cat',
+      component: cat,
     },
   ],
 });

@@ -1,25 +1,6 @@
 <template>
   <div class="container">
-    <header>
-			<section class="row">
-				<section class="logo">
-					<router-link to="/">
-						<img src="../assets/paw.png" alt="pawprint">
-						<h1>Loomade Varjupaik</h1>
-					</router-link>
-				</section>
-
-				<section class="nav">
-					<ul>
-						<li id="active"><router-link to="/loomadVarjupaigas">Loomad varjupaigas</router-link></li>
-						<li><router-link to="/kadunudLoom">Kadunud loomad</router-link></li>
-						<li id="toeta"><router-link to="/toetaMeid">Toeta meid</router-link></li>
-						<li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
-						<li><router-link to="/kontakt">Kontakt</router-link></li>
-					</ul>
-				</section>
-			</section>
-		</header>
+    <Navigation />
     <LoomadVarjupaigas />
     <Footer />
   </div>
@@ -29,19 +10,18 @@
 // @ is an alias to /src
 import Footer from '@/components/Footer.vue';
 import LoomadVarjupaigas from '@/components/LoomadVarjupaigas.vue';
+import Navigation from '@/components/Navigation.vue';
 
 export default {
   name: 'loomadVarjupaigas',
   components: {
     Footer,
     LoomadVarjupaigas,
+    Navigation,
   },
 };
 </script>
 
 <style>
-  #varjupaigas a { 
-    color: #33ccff; 
-    border-bottom: none;
-  }
+
 </style>

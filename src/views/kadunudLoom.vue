@@ -26,12 +26,15 @@
     <section class="loomad-varjupaigas">
       <section class="flex-cat">
         <router-link to="/lostCats"><img src="../assets/body_cat.jpg"></router-link>
+        <h4>10 KASSI</h4>
       </section>
       <section class="flex-dog">
         <router-link to="/lostDogs"><img src="../assets/body_dog.jpg"></router-link>
+        <h4>7 KOERA</h4>
       </section>
       <section class="flex-rabbit">
         <router-link to="/lostRabbits"><img src="../assets/body_rabbit.jpg"></router-link>
+        <h4>2 JÄNEST</h4>
       </section>
     </section>
     
@@ -105,5 +108,36 @@ export default {
 </script>
 
 <style>
+  .flex-cat h4, .flex-dog h4, .flex-rabbit h4 {
+	 position: absolute;
+	  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px black;
+    transition: 0.5s;
+    
+  }
 
+  .flex-cat, .flex-dog, .flex-rabbit {
+    position: relative;
+  }
+
+  .flex-cat:hover img, .flex-dog:hover img, .flex-rabbit:hover img {
+    filter: blur(0px);
+  }
+
+  .flex-cat:hover h4, .flex-dog:hover h4, .flex-rabbit:hover h4 {
+    opacity: 0;
+  }
+  
+  .flex-cat img, .flex-dog img, .flex-rabbit img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	filter: blur(3px);
+	transition: 0.5s;
+}
+  
 </style>

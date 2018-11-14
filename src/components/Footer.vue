@@ -111,6 +111,19 @@ export default {
 
   .footer-icons svg {
     margin: 20px 25px 0px 25px;
+    transition: fill .3s linear;
+  }
+  
+  #instagram svg:hover {
+	fill: #2C6A93;
+  }
+
+  #facebook svg:hover {
+    fill: #3b5998;
+  }
+
+  #twitter svg:hover {
+    fill: #1DA1F2;
   }
 
   .footer-toetaja {

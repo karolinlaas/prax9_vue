@@ -34,4 +34,9 @@ export default {
     height: 1px;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
   }
+  
+  #varjupaigas {
+    color: white;
+  }
+  
 </style>

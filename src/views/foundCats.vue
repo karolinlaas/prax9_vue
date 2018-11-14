@@ -1,25 +1,7 @@
 <template>
   <div class="container">
-    <header>
-			<section class="row">
-				<section class="logo">
-					<router-link to="/">
-						<img src="../assets/paw.png" alt="pawprint">
-						<h1>Loomade Varjupaik</h1>
-					</router-link>
-				</section>
-
-				<section class="nav">
-					<ul>
-						<li id="active"><router-link to="/loomadVarjupaigas">Loomad varjupaigas</router-link></li>
-						<li><router-link to="/kadunudLoom">Kadunud loomad</router-link></li>
-						<li id="toeta"><router-link to="/toetaMeid">Toeta meid</router-link></li>
-						<li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
-						<li><router-link to="/kontakt">Kontakt</router-link></li>
-					</ul>
-				</section>
-			</section>
-		</header>
+   
+   <Navigation />
     
     <section class="found-cats">
 
@@ -46,13 +28,13 @@
 
 			<div class="animal-grid">
 			
-				<a href="cat.html">
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
-				</a>
+				</router-link>
 
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
@@ -131,18 +113,17 @@
 <script>
 // @ is an alias to /src
 import Footer from '@/components/Footer.vue';
+import Navigation from '@/components/Navigation.vue';
 
 export default {
   name: 'foundCats',
   components: {
     Footer,
+    Navigation,
   },
 };
 </script>
 
 <style>
-  #varjupaigas a { 
-    color: #33ccff; 
-    border-bottom: none;
-  }
+
 </style>
