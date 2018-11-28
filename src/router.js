@@ -13,6 +13,11 @@ import lostCats from './views/lostCats.vue';
 import lostDogs from './views/lostDogs.vue';
 import lostRabbits from './views/lostRabbits.vue';
 import cat from './views/cat.vue';
+import dog from './views/dog.vue';
+import rabbit from './views/rabbit.vue';
+import lostCatProfile from './views/lostCatProfile.vue';
+import lostDogProfile from './views/lostDogProfile.vue';
+import lostRabbitProfile from './views/lostRabbitProfile.vue';
 
 Vue.use(Router);
 
@@ -84,6 +89,31 @@ export default new Router({
       path: '/cat',
       name: 'cat',
       component: cat,
+    },
+		{
+      path: '/dog',
+      name: 'dog',
+      component: dog,
+    },
+		{
+      path: '/rabbit',
+      name: 'rabbit',
+      component: rabbit,
+    },
+		{
+      path: '/lostCatProfile',
+      name: 'lostCatProfile',
+      component: lostCatProfile,
+    },
+		{
+      path: '/lostDogProfile',
+      name: 'lostDogProfile',
+      component: lostDogProfile,
+    },
+		{
+      path: '/lostRabbitProfile',
+      name: 'lostRabbitProfile',
+      component: lostRabbitProfile,
     },
   ],
 });

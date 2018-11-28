@@ -36,71 +36,93 @@
 				</div>
 				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
           <h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/cat">
 				<div class="grid-cat">
 					<img src="../assets/cat_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
 			</div>
 

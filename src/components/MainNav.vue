@@ -53,6 +53,7 @@ export default {
   .main-logo {
     float: left;
     padding-top: 30px;
+    overflow: hidden;
   }
 
   .main-logo img {
@@ -96,4 +97,12 @@ export default {
   .main-nav a:hover {
     border-bottom: solid 2px white;
   }
+	
+	@media all and (max-width: 1380px) {		
+		.main-row, .row {
+			overflow: hidden;
+			width: 1250px;
+			padding-left: 30px;
+			padding-right: 30px;}
+	}
 </style>

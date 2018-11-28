@@ -57,11 +57,13 @@
 				</div>
         </router-link>
 
+				<router-link to="/lostRabbitProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_rabbit.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
 			</div>
 

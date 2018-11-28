@@ -57,41 +57,53 @@
 				</div>
         </router-link>
 
+				<router-link to="/lostDogProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_dog.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostDogProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_dog.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostDogProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_dog.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostDogProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_dog.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostDogProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_dog.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostDogProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_dog.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
 			</div>
 

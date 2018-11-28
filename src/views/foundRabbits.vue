@@ -54,47 +54,61 @@
 				</div>
 				</router-link>
 
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
           <h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 				
+				<router-link to="/rabbit">
 				<div class="grid-cat">
 					<img src="../assets/rabbit_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Jänese Nimi</h3>
 				</div>
+				</router-link>
 
 			</div>
 

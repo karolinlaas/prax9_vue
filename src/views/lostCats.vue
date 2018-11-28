@@ -57,59 +57,77 @@
 				</div>
         </router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/lostCatProfile">
 				<div class="grid-cat">
 					<img src="../assets/lost_cat.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Kassi Nimi</h3>
 				</div>
+				</router-link>
 
 			</div>
 

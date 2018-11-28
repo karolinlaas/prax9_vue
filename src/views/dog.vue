@@ -5,33 +5,33 @@
         <section class="test">
 
         <section class="cat-profile">
-          <router-link to="/foundCats"><h5>&#x21BC TAGASI LEITUD KASSIDE LEHELE</h5></router-link>
+          <router-link to="/foundDogs"><h5>&#x21BC TAGASI LEITUD KOERTE LEHELE</h5></router-link>
 
           <div class="left-profile">
-            <img id="main-img" src="../assets/cat_1.jpg">
+            <img id="main-img" src="../assets/dog_1.jpg">
             <div class="profile-flex">
-              <img src="../assets/cat_1.jpg">
-              <img src="../assets/cat_1.jpg">
-              <img src="../assets/cat_1.jpg">
+              <img src="../assets/dog_1.jpg">
+              <img src="../assets/dog_1.jpg">
+              <img src="../assets/dog_1.jpg">
             </div>
           </div>
 
           <div class="right-profile">
             <img id="gender" src="../assets/male.svg">
-            <h2>kassi nimi</h2>
+            <h2>koera nimi</h2>
             <div class="clearfix"></div>
 
             <h4>Liik</h4>
-            <p>Kass</p>
+            <p>Koer</p>
             <div class="clearfix"></div>
             <h4>Vanus</h4>
-            <p>3 aastat</p>
+            <p>5 aastat</p>
             <div class="clearfix"></div>
             <h4>Sugu</h4>
             <p>Isane</p>
             <div class="clearfix"></div>
             <h4>Varjupaigas alates</h4>
-            <p>10.10.2018</p>
+            <p>11.11.2018</p>
             <div class="clearfix"></div>
             <h4>Ster. / Kastr.</h4>
             <p>Jah</p>
@@ -67,7 +67,7 @@ import Footer from '@/components/Footer.vue';
 import Navigation from '@/components/Navigation.vue';
 
 export default {
-  name: 'cat',
+  name: 'dog',
   components: {
     Footer,
     Navigation,

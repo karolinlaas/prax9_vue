@@ -54,65 +54,85 @@
 				</div>
 				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
           <h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/female.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
+				<router-link to="/dog">
 				<div class="grid-cat">
 					<img src="../assets/dog_1.jpg">
 					<img id="gender" src="../assets/male.svg">
 					<h3>Koera Nimi</h3>
 				</div>
+				</router-link>
 
 			</div>
 

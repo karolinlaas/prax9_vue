@@ -1,37 +1,59 @@
 <template>
   <div class="container">
 		
-   <Navigation />
+     <header>
+			<section class="row">
+				<section class="logo">
+					<router-link to="/">
+						<img src="../assets/paw.png" alt="pawprint">
+						<h1>Loomade Varjupaik</h1>
+					</router-link>
+				</section>
+
+				<section class="nav">
+					<ul>
+						<li><router-link to="/loomadVarjupaigas">Loomad varjupaigas</router-link></li>
+						<li id="active"><router-link to="/kadunudLoom">Kadunud loomad</router-link></li>
+						<li id="toeta"><router-link to="/toetaMeid">Toeta meid</router-link></li>
+						<li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
+						<li><router-link to="/kontakt">Kontakt</router-link></li>
+					</ul>
+				</section>
+			</section>
+		</header>
         <section class="test">
 
         <section class="cat-profile">
-          <router-link to="/foundCats"><h5>&#x21BC TAGASI LEITUD KASSIDE LEHELE</h5></router-link>
+          <router-link to="/lostDogs"><h5>&#x21BC TAGASI KADUNUD KOERTE LEHELE</h5></router-link>
 
           <div class="left-profile">
-            <img id="main-img" src="../assets/cat_1.jpg">
+            <img id="main-img" src="../assets/lost_dog.jpg">
             <div class="profile-flex">
-              <img src="../assets/cat_1.jpg">
-              <img src="../assets/cat_1.jpg">
-              <img src="../assets/cat_1.jpg">
+              <img src="../assets/lost_dog.jpg">
+              <img src="../assets/lost_dog.jpg">
+              <img src="../assets/lost_dog.jpg">
             </div>
           </div>
 
           <div class="right-profile">
-            <img id="gender" src="../assets/male.svg">
-            <h2>kassi nimi</h2>
+            <img id="gender" src="../assets/female.svg">
+            <h2>koera nimi</h2>
             <div class="clearfix"></div>
 
             <h4>Liik</h4>
-            <p>Kass</p>
+            <p>Koer</p>
             <div class="clearfix"></div>
             <h4>Vanus</h4>
-            <p>3 aastat</p>
+            <p>5 aastat</p>
             <div class="clearfix"></div>
             <h4>Sugu</h4>
-            <p>Isane</p>
+            <p>Emane</p>
             <div class="clearfix"></div>
-            <h4>Varjupaigas alates</h4>
-            <p>10.10.2018</p>
+            <h4>Kadunud alates</h4>
+            <p>11.11.2018</p>
+            <div class="clearfix"></div>
+            <h4>Kadumise koht</h4>
+            <p>Tammelinn</p>
             <div class="clearfix"></div>
             <h4>Ster. / Kastr.</h4>
             <p>Jah</p>
@@ -41,18 +63,15 @@
               <h4>Kirjeldus</h4>
               <p>Lühike lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
             </div>
-                    <div class="clearfix"></div>
             <br>
-            <div class="kirjeldus" id="responsive">
-              <h4>Tule mind vaatama!</h4>
-                        <div class="clearfix"></div>
-              <p> Helista <b>+372 555 5555</b> ja lepi kokku kohtumine! </p>
-            </div>
+            <div class="kirjeldus">
+              <h4>Leidmise korral helista +372 555 5555!</h4>
             <div class="clearfix"></div>
 
             <button><router-link to="/kontakt" id="alumine_nupp">MEIE ASUKOHT</router-link></button>
 
-          </div>
+          	</div>
+					</div>
 
         </section>
 		</section>
@@ -64,13 +83,11 @@
 <script>
 // @ is an alias to /src
 import Footer from '@/components/Footer.vue';
-import Navigation from '@/components/Navigation.vue';
 
 export default {
-  name: 'cat',
+  name: 'lostDogProfile',
   components: {
     Footer,
-    Navigation,
   },
 };
 </script>
